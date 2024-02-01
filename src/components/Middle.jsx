@@ -1,4 +1,3 @@
-import Boxes from "./Boxes";
 import Clients from "./clients";
 import Play from "./icons/Play";
 import Tick from "./icons/Tick";
@@ -67,8 +66,8 @@ const Middle = () => {
             </div>
           </div>
         </div>
-        <div className="border border-white h-48 mx-12 min-h-[450px]">
-          <Boxes></Boxes>
+        <div className="mx-12 min-h-[450px]">
+          <img src="src/about-image.svg" alt="boxes" />
         </div>
       </div>
     </>

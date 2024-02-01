@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 const Ticket = () => {
     return (
         <div className="flex py-28 px-14 gap-x-10">
@@ -16,7 +17,15 @@ const Ticket = () => {
                 </>
                 <button className="bg-blue-600 text-white font-semibold rounded-md py-4 px-5 text-xs mt-10">Submit Ticket</button>
             </div>
-            <div className="basis-1/3 bg-blue-400 bg-opacity-10"></div>
+            <div className="basis-1/3 bg-blue-600 bg-opacity-10 p-10">
+                <p className="text-xl text-white font-semibold">Subscribe to recieve future updates.</p>
+                <p className="text-sm text-gray-400 mt-2 pb-10 leading-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore facilis iste mollitia necessitatibus commodi.</p>
+                <hr />
+                <input className="w-full mt-10 mb-2 bg-gray-300 bg-opacity-10 text-gray-400 text-sm shadow-md px-4 py-2 rounded-md" type="text" placeholder="Enter your name" id="field1"></input>
+                <input className="w-full mt-2 mb-2  bg-gray-300 bg-opacity-10 text-gray-400 text-sm shadow-md px-4 py-2 rounded-md" type="email" placeholder="Enter Mail" id="field2"></input>
+                <button className="w-full bg-blue-600 text-white font-semibold rounded-md py-3 px-5 text-xs mt-2 mb-2">Subscribe</button>                
+                <p className=" text-center text-sm text-gray-400 mt-2 leading-5">No spam guaranteed, So Please don't send <br />any spam mail.</p>
+            </div>
         </div>
     )
 }

@@ -7,6 +7,7 @@ import Pricing from './components/Pricing'
 import './index.css'
 import Blogs from './components/Blogs'
 import Ticket from './components/Ticket'
+import Footer from './components/header/footer'
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
       <Pricing></Pricing>
       <Blogs></Blogs>
       <Ticket></Ticket>
-      <h1 className='bg-violet-300 text-violet-500 font-extrabold text-3xl'>Hello World</h1>
+      <Footer></Footer>
     </>
   )
 }
