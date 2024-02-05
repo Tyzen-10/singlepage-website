@@ -19,19 +19,19 @@ const PriceCard = ({ Plan, La, Flu, price}) => {
         Start Free Trial
       </button>
       <hr />
-      <div className="grid sm:grid-cols-12 gap-2 text-gray-400 xl:text-sm my-5 xl:leading-5 text-xs leading-4">
+      <div className="grid md:grid-cols-12 grid-cols-10 gap-2 text-gray-400 xl:text-sm my-5 xl:leading-5 text-xs leading-4">
         <div className="col-span-1"><Tick></Tick></div>
-        <p className="col-span-11">All UI Components</p>
+        <p className="md:col-span-11 col-span-9">All UI Components</p>
         <div className="col-span-1"><Tick></Tick></div>
-        <p className="col-span-11">Use with Unlimited Projects</p>
+        <p className="md:col-span-11 col-span-9">Use with Unlimited Projects</p>
         <div className="col-span-1"><Tick></Tick></div>
-        <p className="col-span-11">Commerical Use</p>
+        <p className="md:col-span-11 col-span-9">Commerical Use</p>
         <div className="col-span-1"><Tick></Tick></div>
-        <p className="col-span-11">Email</p>
+        <p className="md:col-span-11 col-span-9">Email</p>
         <div className="col-span-1">{La ? <Tick></Tick> : <Xmark></Xmark>}</div>
-        <p className="col-span-11">LifeTime Access</p>
+        <p className="md:col-span-11 col-span-9">LifeTime Access</p>
         <div className="col-span-1">{Flu ? <Tick></Tick> : <Xmark></Xmark>}</div>
-        <p className="col-span-11">Free Lifetime Updates</p>
+        <p className="md:col-span-11 col-span-9">Free Lifetime Updates</p>
       </div>
     </div>
   );

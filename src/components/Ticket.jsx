@@ -13,7 +13,7 @@ const Ticket = () => {
                 </div>
                 <>
                 <label htmlFor="field3" className="block text-white text-xs font-semibold mb-2">Your Message</label>
-                <textarea name="" id="field3" className=" w-full h-48 md:block hidden bg-blue-500 bg-opacity-10 text-gray-400 text-sm shadow-md px-4 py-2 rounded-md" placeholder="Enter Your Message"></textarea>
+                <textarea name="" id="field3" className=" w-full h-48 block bg-blue-500 bg-opacity-10 text-gray-400 text-sm shadow-md px-4 py-2 rounded-md" placeholder="Enter Your Message"></textarea>
                 </>
                 <button className="bg-blue-600 text-white font-semibold rounded-md py-4 px-5 text-xs mt-10">Submit Ticket</button>
             </div>

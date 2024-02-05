@@ -36,33 +36,33 @@ const Middle = () => {
             voluptas asperiores.
           </p>
           <div className="grid grid-cols-2 px-12">
-            <div className="grid sm:grid-cols-12 gap-x-2 gap-y-6 text-gray-400 xl:text-sm my-5 xl:leading-5 text-xs leading-4">
+            <div className="grid md:grid-cols-12 grid-cols-8 gap-x-2 gap-y-6 text-gray-400 xl:text-sm my-5 xl:leading-5 text-xs leading-4">
               <div className="col-span-1">
                 <Tick></Tick>
               </div>
-              <p className="col-span-11">Premium Quality</p>
+              <p className="md:col-span-11 col-span-7">Premium Quality</p>
               <div className="col-span-1">
                 <Tick></Tick>
               </div>
-              <p className="col-span-11">Tailwind CSS</p>
+              <p className="md:col-span-11 col-span-7">Tailwind CSS</p>
               <div className="col-span-1">
                 <Tick></Tick>
               </div>
-              <p className="col-span-11">Use For Lifetime</p>
+              <p className="md:col-span-11 col-span-7">Use For Lifetime</p>
             </div>
-            <div className="grid sm:grid-cols-12 gap-x-2 gap-y-6 text-gray-400 xl:text-sm my-5 xl:leading-5 text-xs leading-4">
+            <div className="grid md:grid-cols-12 grid-cols-8 gap-x-2 gap-y-6 text-gray-400 xl:text-sm my-5 xl:leading-5 text-xs leading-4">
               <div className="col-span-1">
                 <Tick></Tick>
               </div>
-              <p className="col-span-11">Next.js</p>
+              <p className="md:col-span-11 col-span-7">Next.js</p>
               <div className="col-span-1">
                 <Tick></Tick>
               </div>
-              <p className="col-span-11">Rich Documentation</p>
+              <p className="md:col-span-11 col-span-7">Rich Documentation</p>
               <div className="col-span-1">
                 <Tick></Tick>
               </div>
-              <p className="col-span-11">Developer Friendly</p>
+              <p className="md:col-span-11 col-span-7">Developer Friendly</p>
             </div>
           </div>
         </div>

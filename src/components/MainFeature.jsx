@@ -13,7 +13,7 @@ const MainFeature = () => {
                 <p className="text-4xl font-semibold mb-5">Main Features</p>
                 <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quaerat dignissimos temporibus illum.<br></br> Facere optio eaque magnam, odio quidem autem!</p>
             </div>
-            <div className="grid lg:grid-cols-3 gap-10 grid-cols-1 px-14">
+            <div className="grid lg:grid-cols-3 gap-10 grid-cols-1 px-14 md:px-36 lg:px-14">
                 <MainCard heading={"Crafted for Startups"} content={content_one} icon={<BsFillGrid1X2Fill color="RoyalBlue" size="36"/>}></MainCard>
                 <MainCard heading={"High Quality Design"} content={content_one} icon={<BsLayersFill color="RoyalBlue" size="36"/>}></MainCard>
                 <MainCard heading={"Next.js.13.x"} content={content_one} icon={<TbGridDots color="RoyalBlue" size="36"></TbGridDots>}></MainCard>
