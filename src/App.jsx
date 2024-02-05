@@ -8,6 +8,7 @@ import './index.css'
 import Blogs from './components/Blogs'
 import Ticket from './components/Ticket'
 import Footer from './components/header/footer'
+import Up from './components/header/Up'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
       <Navbar></Navbar>   
+      <Up></Up>
       <Top></Top>   
       <MainFeature></MainFeature>
       <Middle></Middle>

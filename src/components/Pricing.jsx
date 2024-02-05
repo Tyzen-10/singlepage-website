@@ -3,7 +3,7 @@ import PriceCard from "./PriceCard";
 const Pricing = () => {
     return(
         <div className="py-36">
-            <div className="text-center text-white px-80 pb-36">
+            <div className="text-center text-white lg:px-80 pb-36 px-14">
                 <p className="text-4xl font-semibold mb-5">Simple and Affordable Pricing</p>
                 <p className="text-sm text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quaerat dignissimos temporibus illum.<br></br> Facere optio eaque magnam, odio quidem autem!</p>
             </div>

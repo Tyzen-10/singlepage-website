@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 const Footer = () => {
     return (
         <>
-        <div className="flex gap-x-48 px-14 mb-14">
+        <div className="flex gap-x-48 px-14 mb-14 md:flex-row flex-col">
             <div className="basis-1/3">
             <div className="flex"><i className="text-white">Logo</i><p className="text-2xl font-semibold text-white mb-5">Startup</p></div>
             <p className="text-gray-400 text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, autem?</p>

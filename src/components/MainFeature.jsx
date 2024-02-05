@@ -9,7 +9,7 @@ const MainFeature = () => {
      const content_one = "Writing 30 words that could possibly make this paragraph look big and confuse the readers on what they are currently reading and make them question reality. Adding 10 more words for this to become a 4 line paragraph."
     return (
         <div className="bg-secondary py-36">
-            <div className="text-center text-white px-80 pb-36">
+            <div className="text-center text-white lg:px-80 pb-36 px-14">
                 <p className="text-4xl font-semibold mb-5">Main Features</p>
                 <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quaerat dignissimos temporibus illum.<br></br> Facere optio eaque magnam, odio quidem autem!</p>
             </div>

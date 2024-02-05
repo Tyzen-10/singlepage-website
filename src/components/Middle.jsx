@@ -5,7 +5,7 @@ import Tick from "./icons/Tick";
 const Middle = () => {
   return (
     <>
-      <div className="text-white py-36 px-80">
+      <div className="text-white py-36 lg:px-80 px-14">
         <p className=" text-center text-4xl font-semibold mb-5">
           We are here to help.
         </p>
