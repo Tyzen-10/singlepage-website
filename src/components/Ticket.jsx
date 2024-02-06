@@ -6,10 +6,11 @@ const Ticket = () => {
                 <p className="text-2xl font-semibold text-white">Need help? Open a Ticket</p>
                 <p className="text-sm text-gray-400 mt-2">Our support team will get back to you asap.</p>
                 <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-10 gap-y-2 py-10">
-                    <label htmlFor="field1" className="text-white text-xs font-semibold">Your Name</label>
-                    <label htmlFor="field2" className="text-white text-xs font-semibold">Your Email</label>
-                    <input className="bg-blue-500 bg-opacity-10 text-gray-400 text-sm shadow-md px-4 py-2 rounded-md" type="text" placeholder="Enter your name" id="field1"></input>
-                    <input className="bg-blue-500 bg-opacity-10 text-gray-400 text-sm shadow-md px-4 py-2 rounded-md" type="email" placeholder="Enter Mail" id="field2"></input>
+                    <div><label htmlFor="field1" className="block text-white text-xs font-semibold mb-2">Your Name</label>
+                    <input className="block w-full bg-blue-500 bg-opacity-10 text-gray-400 text-sm shadow-md px-4 py-2 rounded-md" type="text" placeholder="Enter your name" id="field1"></input></div>
+                    <div><label htmlFor="field2" className="block text-white text-xs font-semibold mb-2">Your Email</label>
+                    <input className="block w-full bg-blue-500 bg-opacity-10 text-gray-400 text-sm shadow-md px-4 py-2 rounded-md" type="email" placeholder="Enter Mail" id="field2"></input></div>
+                    
                 </div>
                 <>
                 <label htmlFor="field3" className="block text-white text-xs font-semibold mb-2">Your Message</label>
