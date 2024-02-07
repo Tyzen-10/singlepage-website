@@ -8,7 +8,7 @@ import { SiPowerpages } from "react-icons/si";
 const MainFeature = () => {
      const content_one = "Writing 30 words that could possibly make this paragraph look big and confuse the readers on what they are currently reading and make them question reality. Adding 10 more words for this to become a 4 line paragraph."
     return (
-        <div className="bg-secondary py-36">
+        <div className="bg-secondary py-32">
             <div className="text-center text-white lg:px-80 pb-36 px-14">
                 <p className="text-[2rem] md:text-[2.75rem] font-bold leading-tight mb-5">Main Features</p>
                 <p className="text-base md:text-lg text-gray-400 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quaerat dignissimos temporibus illum. Facere optio eaque magnam, odio quidem autem!</p>

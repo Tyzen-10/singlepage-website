@@ -2,7 +2,7 @@ import ReviewCard from "./ReviewCard";
 
 const Review = () => {
     return(
-        <div className="bg-secondary py-36">
+        <div className="bg-secondary py-32">
             <div className="text-center text-white lg:px-80 pb-36 px-14">
                 <p className="text-[2rem] md:text-[2.75rem] font-bold leading-tight mb-5">What Our Users Say</p>
                 <p className="text-base md:text-lg text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quaerat dignissimos temporibus illum. Facere optio eaque magnam, odio quidem autem!</p>

@@ -14,7 +14,7 @@ const PriceCard = ({ Plan, La, Flu, price }) => {
       <p className="text-gray-400 md:text-base text-sm leading-normal">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, labore!
       </p>
-      <button className="text-center bg-blue-600 text-white font-semibold rounded-md px-2 py-2.5 text-xs w-full my-5 cursor-pointer hover:bg-blue-700">
+      <button className="text-center bg-blue-600 text-white font-semibold rounded-md px-2 py-3 md:text-base text-sm w-full my-5 cursor-pointer hover:bg-blue-700">
         Start Free Trial
       </button>
       <hr />
